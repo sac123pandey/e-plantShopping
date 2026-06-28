@@ -160,17 +160,19 @@ body {
     width: 650px;
     font-size: 19px;
 }
-.cart{
-    color: white;
-    display: flex;
+.cart_quantity_count {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffeb3b !important; /* Standout bright nursery yellow */
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
 }
-.cart_quantity_count{
-    margin-top: 16px;
-    /* background-color: red; */
-    margin-left: 27px;
-    position: absolute;
-    font-size: 29px;
 
+.cart {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
 }
 .plantname_heading{
    display: flex;
